@@ -31,7 +31,7 @@ public class PatientController {
 		return pService.getPatient(id);
 	}
 	
-	@PostMapping("/patients/")
+	@PostMapping("/patients")
 	Patient savePatient(@RequestBody Patient patient) {
 		return pService.savePatient(patient);
 	}

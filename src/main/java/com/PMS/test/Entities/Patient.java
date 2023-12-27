@@ -75,6 +75,7 @@ public class Patient {
 		// TODO Auto-generated constructor stub
 	}
 
-	
+	 @NotEmpty(message = "First name is required")
+	    private String firstName1;
 	
 }
